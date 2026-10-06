@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Please cite this software when using the inspection experiments."
+type: software
+title: "Risk-Budgeted Inspection under Delayed Feedback"
+version: 1.0.0
+date-released: 2026-10-06
+license: MIT
+authors:
+  - family-names: Yavas
+    given-names: Cemil Emre
+    affiliation: "School of Computing, Georgia Southern University"
+    orcid: "https://orcid.org/0009-0006-9552-1731"
+  - family-names: Chen
+    given-names: Lei
+    affiliation: "School of Computing, Georgia Southern University"
+    orcid: "https://orcid.org/0000-0002-3919-8056"
+contact:
+  - family-names: Yavas
+    given-names: Cemil Emre
+    email: cemil@fairesresearch.org
+abstract: >-
+  Reproducible simulations and manufacturing-data replays of risk-ledger
+  inspection with delayed feedback, finite inspection capacity, and
+  anytime statistical quality bounds.
+keywords:
+  - quality inspection
+  - delayed feedback
+  - confidence sequences
+  - manufacturing automation

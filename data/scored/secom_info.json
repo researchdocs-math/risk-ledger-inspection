@@ -1,0 +1,40 @@
+{
+  "name": "secom",
+  "n": 1567,
+  "defects": 104,
+  "train": 783,
+  "calibration": 392,
+  "test": 392,
+  "test_defects": 24,
+  "test_auroc": 0.5906929347826086,
+  "test_ap": 0.07546849380892312,
+  "bin_edges": [
+    0.14682130187462983,
+    0.28028205719467525
+  ],
+  "bins": [
+    {
+      "g": 0,
+      "calibration_n": 311,
+      "calibration_k": 6,
+      "test_n": 263,
+      "test_k": 13
+    },
+    {
+      "g": 1,
+      "calibration_n": 77,
+      "calibration_k": 5,
+      "test_n": 126,
+      "test_k": 11
+    },
+    {
+      "g": 2,
+      "calibration_n": 4,
+      "calibration_k": 2,
+      "test_n": 3,
+      "test_k": 0
+    }
+  ],
+  "features_used": 590,
+  "split_rule": "chronological 50/25/25 percent, stable timestamp order"
+}

@@ -1,0 +1,11 @@
+{
+  "ksdd2": {
+    "url": "https://go.vicos.si/kolektorsdd2",
+    "sha256": "edcdb486809b24f1d17b785e30c52fafc5999554dd5fe18ddf77b61ceb6f36a8",
+    "bytes": 853126555
+  },
+  "secom": {
+    "url": "https://archive.ics.uci.edu/static/public/179/secom.zip",
+    "sha256": "eea568baf3c2229096d7d294cf0b096b5502bd96d92c0b80a65b84714059be8e"
+  }
+}

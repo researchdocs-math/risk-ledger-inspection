@@ -1,0 +1,18 @@
+{
+  "metric_checks": [
+    {
+      "file": "main.csv",
+      "rows": 9350,
+      "columns": 45,
+      "match": true
+    },
+    {
+      "file": "replays.csv",
+      "rows": 8000,
+      "columns": 32,
+      "match": true
+    }
+  ],
+  "matching_trace_files": 64,
+  "status": "passed"
+}

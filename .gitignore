@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.nbc
+*.nbi
+.venv/
+.DS_Store
+data/downloads/
+data/secom/
+data/ksdd2/
+data/weights/
+*.log

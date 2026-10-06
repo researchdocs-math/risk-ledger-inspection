@@ -1,0 +1,42 @@
+{
+  "name": "ksdd2",
+  "n": 3335,
+  "defects": 356,
+  "train": 1398,
+  "calibration": 933,
+  "test": 1004,
+  "test_defects": 110,
+  "test_auroc": 0.9119280048810249,
+  "test_ap": 0.812313950914106,
+  "bin_edges": [
+    0.06194868818167444,
+    0.26408828120185274
+  ],
+  "bins": [
+    {
+      "g": 0,
+      "calibration_n": 538,
+      "calibration_k": 10,
+      "test_n": 584,
+      "test_k": 12
+    },
+    {
+      "g": 1,
+      "calibration_n": 223,
+      "calibration_k": 6,
+      "test_n": 232,
+      "test_k": 8
+    },
+    {
+      "g": 2,
+      "calibration_n": 172,
+      "calibration_k": 82,
+      "test_n": 188,
+      "test_k": 90
+    }
+  ],
+  "feature_dimension": 512,
+  "feature_device": "mps",
+  "selected_C": 0.1,
+  "split_rule": "official test; stratified 60/40 split of official training set"
+}
